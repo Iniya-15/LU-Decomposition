@@ -10,10 +10,11 @@ To write a program to find the LU Decomposition of a matrix.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Initialize matrices
-2. Fill in U (upper triangular matrix)
-3. Fill in L (lower triangular matrix)
-4. Repeat for all rows and columns
+1. Initialize Matrices: Start with a square matrix
+2. Perform Gaussian Elimination for each columns and rows
+3. Fill the Lower Triangular Matrix
+4. Finalize the Upper Triangular Matrix
+5. final result is achieved LU=A
 
 ## Program:
 (i) To find the L and U matrix
